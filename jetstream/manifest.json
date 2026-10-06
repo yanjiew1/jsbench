@@ -1,0 +1,195 @@
+{
+  "suite": "JetStream 3.0 QuickJS subset",
+  "repository": "https://github.com/WebKit/JetStream",
+  "revision": "06785cf861ac44855f168cbbe829278c2802e6de",
+  "benchmarks": [
+    {
+      "name": "hash-map",
+      "files": [
+        "simple/hash-map.js"
+      ],
+      "group": "simple",
+      "deterministicRandom": false
+    },
+    {
+      "name": "doxbee-promise",
+      "files": [
+        "simple/doxbee-promise.js"
+      ],
+      "group": "simple",
+      "deterministicRandom": false
+    },
+    {
+      "name": "doxbee-async",
+      "files": [
+        "simple/doxbee-async.js"
+      ],
+      "group": "simple",
+      "deterministicRandom": false
+    },
+    {
+      "name": "raytrace-public-class-fields",
+      "files": [
+        "class-fields/raytrace-public-class-fields.js"
+      ],
+      "group": "class-fields",
+      "deterministicRandom": false
+    },
+    {
+      "name": "raytrace-private-class-fields",
+      "files": [
+        "class-fields/raytrace-private-class-fields.js"
+      ],
+      "group": "class-fields",
+      "deterministicRandom": false
+    },
+    {
+      "name": "async-fs",
+      "files": [
+        "generators/async-file-system.js"
+      ],
+      "group": "generators",
+      "deterministicRandom": true
+    },
+    {
+      "name": "sync-fs",
+      "files": [
+        "generators/sync-file-system.js"
+      ],
+      "group": "generators",
+      "deterministicRandom": true
+    },
+    {
+      "name": "lazy-collections",
+      "files": [
+        "generators/lazy-collections.js"
+      ],
+      "group": "generators",
+      "deterministicRandom": false
+    },
+    {
+      "name": "js-tokens",
+      "files": [
+        "generators/js-tokens.js"
+      ],
+      "group": "generators",
+      "deterministicRandom": false
+    },
+    {
+      "name": "crypto",
+      "files": [
+        "Octane/crypto.js"
+      ],
+      "group": "octane",
+      "deterministicRandom": true
+    },
+    {
+      "name": "navier-stokes",
+      "files": [
+        "Octane/navier-stokes.js"
+      ],
+      "group": "octane",
+      "deterministicRandom": true
+    },
+    {
+      "name": "raytrace",
+      "files": [
+        "Octane/raytrace.js"
+      ],
+      "group": "octane",
+      "deterministicRandom": false
+    },
+    {
+      "name": "richards",
+      "files": [
+        "Octane/richards.js"
+      ],
+      "group": "octane",
+      "deterministicRandom": true
+    },
+    {
+      "name": "ai-astar",
+      "files": [
+        "SeaMonster/ai-astar.js"
+      ],
+      "group": "seamonster",
+      "deterministicRandom": false
+    },
+    {
+      "name": "gaussian-blur",
+      "files": [
+        "SeaMonster/gaussian-blur.js"
+      ],
+      "group": "seamonster",
+      "deterministicRandom": false
+    },
+    {
+      "name": "bigint-bigdenary",
+      "files": [
+        "bigint/bigdenary-bundle.js",
+        "bigint/bigdenary-benchmark.js"
+      ],
+      "group": "bigint",
+      "deterministicRandom": false
+    },
+    {
+      "name": "cdjs",
+      "files": [
+        "cdjs/constants.js",
+        "cdjs/util.js",
+        "cdjs/red_black_tree.js",
+        "cdjs/call_sign.js",
+        "cdjs/vector_2d.js",
+        "cdjs/vector_3d.js",
+        "cdjs/motion.js",
+        "cdjs/reduce_collision_set.js",
+        "cdjs/simulator.js",
+        "cdjs/collision.js",
+        "cdjs/collision_detector.js",
+        "cdjs/benchmark.js"
+      ],
+      "group": "cdjs",
+      "deterministicRandom": false
+    },
+    {
+      "name": "3d-raytrace-SP",
+      "files": [
+        "SunSpider/3d-raytrace.js"
+      ],
+      "group": "sunspider",
+      "deterministicRandom": false
+    }
+  ],
+  "sha256": {
+    "simple/hash-map.js": "9789c4d06f12ee4e4836c669b5515a40c6caaf5e9321c08da548740225fb46fb",
+    "simple/doxbee-promise.js": "b3839e9042ddaa1bf4266217ce5d524b7bed7352d6c7181b03343f4961b3286c",
+    "simple/doxbee-async.js": "720caa1d56a43a715ac0020d1ef653aa66fc59604ef75878f36fe1fa4a67a9a3",
+    "class-fields/raytrace-public-class-fields.js": "5bb6cbf1f8c771604921eee1c1d8dcc7e5de3b8005fe5489bad9b29c741c6697",
+    "class-fields/raytrace-private-class-fields.js": "9b9871835860f514f3a532d16a527f4de38852cadadf2ea04cf39b1067e32da4",
+    "generators/async-file-system.js": "616054f7bd12140b942795f81fd103866aa6b654fcb10e11bfa4ade34df5cb06",
+    "generators/sync-file-system.js": "4bbf8281f95739c7c59b7574b311232511c089d84dd4b42b975b2273ccdbe354",
+    "generators/lazy-collections.js": "5d3770b3efb1ecf2f9df6152f9231808a6021f91cf913f68c67a7c5b95ed00eb",
+    "generators/js-tokens.js": "723d73f890d83fae254d23abb12c676211755bccd11c359fe3d83da4d80f6603",
+    "Octane/crypto.js": "efab270d7bee0c97545be209ff1c28e687513e822c19b348bb7fb9e02e2ac6b7",
+    "Octane/navier-stokes.js": "6df9501038437d93b53a03a86cb1590a54d0ac004c3e135181980c12531f16a6",
+    "Octane/raytrace.js": "ab8b0cd8260b785765f89bf20725c6112c829c697a48ced99194f307dff39b03",
+    "Octane/richards.js": "18f3e84777925f18d4a4b4f0d612d2158a008064f4272facfc1c1b2bbf880c91",
+    "SeaMonster/ai-astar.js": "746e18ca6916026c211a1537064d3efdca3a41de295eb2291e6c5e73f5f7faa1",
+    "SeaMonster/gaussian-blur.js": "3510d05710feaf16d3626b3bf738491f3ff7b2d21a20f5da6e8f205d52599b97",
+    "bigint/bigdenary-bundle.js": "57208615c3b0723ebafeb5939997090d750284f9b3c6c9ebe8eac3ac499d1ea5",
+    "bigint/bigdenary-benchmark.js": "3c77ec3c8b52fef2eff43f8b9af16a5544db7575ffd419b2ceea7275a66d64b4",
+    "cdjs/constants.js": "428ca49173278366f1fbb06f6525d2ec5a31b3d78bde4125fbedb3817ba0d43b",
+    "cdjs/util.js": "a58922518b97a1fa65f435c8e056c042efe70fef386053c1ae161f5e4fa68033",
+    "cdjs/red_black_tree.js": "f784d71d2a743f8417d85e44e85d68599aaa88885d9ff092ead37818bc910e69",
+    "cdjs/call_sign.js": "d163579b2db08821c02eee9dd99a103ee4dd6400f4ed292d9ad2ff96c725d591",
+    "cdjs/vector_2d.js": "121c553a2cf3c1b31c484b337beffdaf8a5150b307404b90a3443e4c81e222c4",
+    "cdjs/vector_3d.js": "e8675d83ff5f24e66938c1d6eef970195f011a213701fe1c2967d99383b987b7",
+    "cdjs/motion.js": "369900c8f63a59d15ec0a280262c8b6e5b470a3677ff04c8dbc8077304f0f041",
+    "cdjs/reduce_collision_set.js": "d6b96cd39e6cbfdc2589d8468d336e579d46ba2e4ee0d9fbdb1980360c38c433",
+    "cdjs/simulator.js": "49643d0ae4977f6edeba24322a82284e5df41c7aa5dfb0c1613220299eabf9e7",
+    "cdjs/collision.js": "b5f7dd27c603353b66e66aaf48c91138786b8d8b6db3999d5aec2feaf157c86b",
+    "cdjs/collision_detector.js": "5db494f06a87d343340363cbc76394ab656315ada0f8fc7f8d75165387022de6",
+    "cdjs/benchmark.js": "1bc507611818eb3560af0c4bef260b25e752a6b296d924af0899c82b037b3b05",
+    "SunSpider/3d-raytrace.js": "b11273b2e298b2ce04c3a443f18c9195addf40950f9aec86e8a640fa253871b9"
+  }
+}
